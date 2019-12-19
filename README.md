@@ -19,6 +19,24 @@ Create branch and checkout to it.
 git checkout -b <branch>
 ```
 
+List branches merged in current branch.
+```sh
+git branch --merged
+```
+
+List branches not merged in current branch.
+```sh
+git branch --no-merged
+```
+
+Remove all merged branches.
+
+Remove all remote merged branches.
+**Warning: It can remove remote master or any other critical branch.**
+```sh
+git branch -r --merged | grep -v master | sed 's/origin\//:/' | xargs -n 1 git push origin
+```
+
 ### # commit
 
 Add all tracked files and make new commit.
@@ -49,3 +67,10 @@ git log --graph --pretty=format:'%Cred%h%Creset %Cgreen(%an)%Creset -%C(yellow)%
 Push new branch and set tracking the branch.
 ```sh
 git push -u <remote> <branch>
+
+## Other
+
+Get current branch name you are on.
+```sh
+git rev-parse --abbrev-ref HEAD
+```
