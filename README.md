@@ -4,7 +4,8 @@
 [Branch](branch.md)<br />
 [Checkout](checkout.md)<br />
 [Config](config.md)<br />
-[Diff](diff.md)
+[Diff](diff.md)<br />
+[Rev-Parse](rev-parse.md)
 
 ### # commit
 
@@ -45,11 +46,4 @@ git log --name-status
 Push new branch and set tracking the branch.
 ```sh
 git push -u <remote> <branch>
-```
-
-## Other
-
-Get current branch name you are on.
-```sh
-git rev-parse --abbrev-ref HEAD
 ```
