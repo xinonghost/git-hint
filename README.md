@@ -62,9 +62,18 @@ git commit -a --amend --no-edit
 ### # log
 
 Prettify log output.
-
 ```sh
 git log --graph --pretty=format:'%Cred%h%Creset %Cgreen(%an)%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+```
+
+Show logs of certain author.
+```sh
+git log --author=<name>
+```
+
+Show only logs of file status.
+```sh
+git log --name-status
 ```
 
 ### # push
