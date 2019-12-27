@@ -5,9 +5,7 @@ Branch tracking add extra info to current branch status and shows difference bet
 ```sh
 git branch -u <remote>/<branch>
 ```
-
-\
-\
+<br /><br />
 
 ### Unset tracking branch.
 Remove tracking branch from current branch.
