@@ -1,5 +1,6 @@
 ## Git shortcut commands.
 
+[Add](add.md)<br />
 [Branch](branch.md)<br />
 [Checkout](checkout.md)<br />
 [Config](config.md)
