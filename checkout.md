@@ -12,3 +12,10 @@ Forgot all changes which were made for specific file and use state from last com
 ```sh
 git checkout -- <filename>
 ```
+<br />
+
+### Checkout to previous branch.
+Checkout back to previous branch where HEAD was just before checking out to current branch.
+```sh
+git checkout -
+```
