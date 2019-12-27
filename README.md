@@ -5,6 +5,7 @@
 [Checkout](checkout.md)<br />
 [Config](config.md)<br />
 [Diff](diff.md)<br />
+[Log](log.md)<br />
 [Rev-Parse](rev-parse.md)
 
 ### # commit
