@@ -1,16 +1,6 @@
 ## Git shortcut commands.
 
-### # branch
-
-Set tracking branch.
-```sh
-git branch -u <remote>/<branch>
-```
-
-Unset tracking branch.
-```sh
-git branch --unset-upstream
-```
+[Branch](branch.md)
 
 ### # checkout
 
@@ -81,6 +71,7 @@ git log --name-status
 Push new branch and set tracking the branch.
 ```sh
 git push -u <remote> <branch>
+```
 
 ## Other
 
