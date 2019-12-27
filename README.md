@@ -3,7 +3,8 @@
 [Add](add.md)<br />
 [Branch](branch.md)<br />
 [Checkout](checkout.md)<br />
-[Config](config.md)
+[Config](config.md)<br />
+[Diff](diff.md)
 
 ### # commit
 

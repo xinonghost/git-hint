@@ -19,3 +19,10 @@ Checkout back to previous branch where HEAD was just before checking out to curr
 ```sh
 git checkout -
 ```
+<br />
+
+### Checkout with updating submodules.
+Checkout to specific branch with updating submodules for target branch.
+```sh
+git checkout --recurse-submodules <branch>
+```
