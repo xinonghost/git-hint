@@ -1,36 +1,7 @@
 ## Git shortcut commands.
 
-[Branch](branch.md)
-
-### # checkout
-
-Create branch and checkout to it.
-```sh
-git checkout -b <branch>
-```
-
-List branches merged in current branch.
-```sh
-git branch --merged
-```
-
-List branches not merged in current branch.
-```sh
-git branch --no-merged
-```
-
-Remove all merged branches.
-
-```sh
-git branch --merged | grep -v $(git rev-parse --abbrev-ref HEAD) | xargs git branch -d
-```
-
-Remove all remote merged branches.
-
-**Warning: It can remove remote master or any other critical branch.**
-```sh
-git branch -r --merged | grep -v master | sed 's/origin\//:/' | xargs -n 1 git push origin
-```
+[Branch](branch.md)<br />
+[Checkout](checkout.md)
 
 ### # commit
 
