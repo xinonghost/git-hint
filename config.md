@@ -4,4 +4,4 @@
 Set oneline log on permanent basis.
 ```sh
 git config format.pretty oneline
-``
+```
