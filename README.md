@@ -8,5 +8,6 @@
 [Diff](diff.md)<br />
 [Log](log.md)<br />
 [Push](push.md)<br />
-[Rev-Parse](rev-parse.md)
+[Rev-Parse](rev-parse.md)<br />
+[Status](status.md)
 

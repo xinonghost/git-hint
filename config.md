@@ -14,7 +14,7 @@ git config credential.helper 'cache --timeout=<seconds>'
 ```
 <br />
 
-### Forgot credentials.
+### Forget credentials.
 Remove credentials cache and forgot access credentials.
 ```sh
 git credential-cache exit
